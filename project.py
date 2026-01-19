@@ -174,10 +174,10 @@ def main():
     ### FAZER MELHOR DE 3
     while (alfa.points <= 12) and (beta.points <= 12):
         if alfa.points == 12:
-            sys.exit(f"The Team: {alfa.title}, clinched the match!!!")
+            sys.exit(f"The Team: {alfa.title}, clinched the match!!")
             sys
         elif beta.points == 12:
-            sys.exit(f"The Team: {beta.title}, clinched the match!!!")
+            sys.exit(f"The Team: {beta.title}, clinched the match!!")
         else: 
 
             match_deck = Deck()
